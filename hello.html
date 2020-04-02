@@ -3,9 +3,49 @@
 <html>
   <head>
     <title>My Webpage!</title>
+    <style>
+      #top {
+        background-color: teal;
+        border: 3px solid blue;
+        width: 500px;
+        height: 400px;
+        margain: 30px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        color: blue;
+      }
+      li {
+        color: green;
+      }
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        text-decoration-color: red;
+      }
+
+      th {
+        background-color: grey;
+      }
+    </style>
   </head>
   <body>
-    <h1 style= "color:blue;text-align:centre;">Hello World!</h1>
+    <div id = "top">
+      <h1>Hello World!</h1>
+      <h1>Welcome to My Webpage!</h1>
+    </div>
     <p>This is a paragragph of text</p>
     An Unordered List:
     <ul>
@@ -19,5 +59,42 @@
       <li>Second Item</li>
       <li>Third Item</li>
     </ol>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <th>Jill</th>
+        <th>Valentine</th>
+        <th>46</th>
+      </tr>
+      <tr>
+        <th>Albert</th>
+        <th>Wesker</th>
+        <th>60</th>
+      </tr>
+      <tr>
+        <th>Chris</th>
+        <th>Redfield</th>
+        <th>47</th>
+      </tr>
+      <tr>
+        <th>Brad</th>
+        <th>Vickers</th>
+        <th>57</th>
+      </tr>
+      <tr>
+        <th>Rebecca</th>
+        <th>Chambers</th>
+        <th>30</th>
+      </tr>
+      <tr>
+        <th>Barry</th>
+        <th>Burton</th>
+        <th>60</th>
+      </tr>
+    </table>
   </body>
 </html>
